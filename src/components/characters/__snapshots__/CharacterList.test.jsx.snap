@@ -6,28 +6,36 @@ exports[`CharacterList component renders Character List 1`] = `
     data-testid="characters"
   >
     <li>
-      <div
-        data-testid="details"
+      <a
+        href="/undefined"
       >
-        <h1>
-           Arnold 
-        </h1>
-        <img
-          src="test.png"
-        />
-      </div>
+        <div
+          data-testid="details"
+        >
+          <h1>
+             Arnold 
+          </h1>
+          <img
+            src="test.png"
+          />
+        </div>
+      </a>
     </li>
     <li>
-      <div
-        data-testid="details"
+      <a
+        href="/undefined"
       >
-        <h1>
-           Stevie 
-        </h1>
-        <img
-          src="test2.png"
-        />
-      </div>
+        <div
+          data-testid="details"
+        >
+          <h1>
+             Stevie 
+          </h1>
+          <img
+            src="test2.png"
+          />
+        </div>
+      </a>
     </li>
   </ul>
 </DocumentFragment>
