@@ -6,7 +6,9 @@ exports[`CharacterList component renders Character List 1`] = `
     data-testid="characters"
   >
     <li>
-      <div>
+      <div
+        data-testid="details"
+      >
         <h1>
            Arnold 
         </h1>
@@ -16,7 +18,9 @@ exports[`CharacterList component renders Character List 1`] = `
       </div>
     </li>
     <li>
-      <div>
+      <div
+        data-testid="details"
+      >
         <h1>
            Stevie 
         </h1>

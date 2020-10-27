@@ -2,7 +2,9 @@
 
 exports[`Character component renders Character 1`] = `
 <DocumentFragment>
-  <div>
+  <div
+    data-testid="details"
+  >
     <h1>
        Arnold 
     </h1>
