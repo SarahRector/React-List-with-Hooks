@@ -13,9 +13,9 @@ describe('HeyArnoldAll Container', () => {
     ]);
     render(<HeyArnoldAll />);
 
-    const characterList = await screen.findByTestId('characters');
+    const characterList = screen.getByTestId('characters');
     return waitFor(() => {
-      expect(characterList).not.toBeEmptyDOMElement();
+      expect(characterList).toHaveTextContent('Arnold Stevie');
     });
   });
 });

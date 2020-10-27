@@ -7,8 +7,7 @@ export const getCharacter = () => {
       Origin: null
     }
   })
-    .then(res => res.json())
-    .then(result => result.data.Characters);
+    .then(res => res.json());
 };
 
 export const getOneCharacter = (id) => {
